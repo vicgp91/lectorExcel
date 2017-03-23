@@ -6,8 +6,15 @@ public class CarneInfo {
 	public String nombre;
 	public String apellido;
 	public String año;
+	public String img;
 	
 	
+	public String getImg() {
+		return img;
+	}
+	public void setImg(String img) {
+		this.img = img;
+	}
 	public String getCedula() {
 		return cedula;
 	}
